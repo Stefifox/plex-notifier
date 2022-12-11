@@ -1,0 +1,9 @@
+{
+  "sql": {
+    "file_name": "plex.sqlite",
+    "verbose": false
+  },
+  "app": {
+    "port": 1000
+  }
+}

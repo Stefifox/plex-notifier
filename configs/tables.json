@@ -1,0 +1,37 @@
+{
+  "tables": [
+    {
+      "name": "logs",
+      "columns": [
+        {
+          "column_name" : "log_id",
+          "column_type": "INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT"
+        },
+        {
+          "column_name": "log_date",
+          "column_type": "TEXT NOT NULL"
+        },
+        {
+          "column_name": "log_event",
+          "column_type": "TEXT NOT NULL"
+        },
+        {
+          "column_name": "log_user",
+          "column_type": "TEXT NULL"
+        },
+        {
+          "column_name": "log_ip",
+          "column_type": "TEXT NULL"
+        },
+        {
+          "column_name": "log_library",
+          "column_type": "TEXT NULL"
+        },
+        {
+          "column_name": "log_media",
+          "column_type": "TEXT NULL"
+        }
+      ]
+    }
+  ]
+}
